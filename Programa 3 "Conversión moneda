@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int M;
+    float E;
+
+    printf("Programa Conversion pesos Mex. a Euros\n ");
+   printf ("Ingrese la cantidad de pesos mexicanos\n");
+   scanf ("%d",&M);
+
+E=(0.042*M);
+printf("El equivalente en euros es: %1.2f\n",E);
+
+   return 0;
+}
