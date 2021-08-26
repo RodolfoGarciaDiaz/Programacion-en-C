@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int num1,num2,Suma,Resta;
+
+    printf ("Programa pide dos numeros suma y resta\n");
+   printf ("Indica el primer valor\n");
+   scanf ("%d",&num1);
+   printf ("Indica el segundo valor\n");
+   scanf ("%d",&num2);
+
+Suma=num1+num2;
+Resta=num1-num2;
+
+printf("El resultado de la suma es:%d\n",Suma);
+printf("El resultado de la resta es:%d\n",Resta);
+
+   return 0;
+}
