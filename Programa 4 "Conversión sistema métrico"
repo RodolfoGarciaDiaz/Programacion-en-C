@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int cm;
+    float ft;
+
+    printf("Programa sistema metrico convierte de  cm a pies\n ");
+   printf ("Ingrese la cantidad de cm \n");
+   scanf ("%d",&cm);
+
+ft=(0.0328084*cm);
+printf("El equivalente en pies es: %1.2f",ft);  printf("ft\n");
+
+   return 0;
+}
