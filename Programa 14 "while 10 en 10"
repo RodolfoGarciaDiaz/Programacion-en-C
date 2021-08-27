@@ -1,0 +1,18 @@
+//26/08/2021
+//García Díaz Rodolfo
+#include <stdio.h>
+
+int main(void)
+{
+printf ("Programa (while) 10 en 10 \n");
+int i=0, j=0, final=100;
+
+while(i<final) {
+
+i=j*10;
+printf("%d\n",i);
+j++;
+}
+j=100; /* sentencia que ejecutamos cuando deje de cumplirse la condición del while. */
+return 0;
+}
