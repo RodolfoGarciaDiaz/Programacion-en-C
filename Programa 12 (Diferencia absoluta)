@@ -1,0 +1,21 @@
+//26/08/2021/
+//Rodolfo García Díaz
+//Programa 12
+#include <stdio.h>
+int main (void)
+{
+    int num1, num2;
+    int res;
+
+printf("Programa diferencia absoluta de dos numeros respecto al mayor\n");
+printf("Indica el valor del primer numero:\n");
+scanf("%d",&num1);
+printf("Indica el valor del segundo numero\n");
+scanf("%d",&num2);
+ if(num1>num2)
+ res=num1-num2;
+ else
+ res=num2-num1;
+printf("La diferencia absoluta es=%d",res);
+return 0;
+}
