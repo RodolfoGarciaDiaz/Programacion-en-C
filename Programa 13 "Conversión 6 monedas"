@@ -38,7 +38,7 @@ res=0.045*Mex;
 break;
 
 case 6://Yuan
-res=0.045*Mex;
+res=0.032*Mex;
 break;
 
 default:
