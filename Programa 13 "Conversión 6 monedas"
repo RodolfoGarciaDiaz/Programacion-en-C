@@ -1,0 +1,49 @@
+//26/08/2021/
+//Rodolfo García Díaz
+//Programa 13
+#include <stdio.h>
+int main (void)
+{
+int Mex;
+float res;
+int d;
+printf("Programa de conversion de pesos Mex\n");
+printf("Ingresa la cantidad de pesos mexicanos:\n");
+scanf("%d",&Mex);
+
+printf("Indica a que moneda se quiere realizar la conversion\n 1)Dolar EU\n 2)Euro\n 3)libra\n 4)Yen\n 5)Franco\n 6)Yuan\n");
+scanf("%d",&d);
+
+res=0;
+switch(d)
+{
+case 1://Dolar EU
+res=0.049*Mex;
+break;
+
+case 2://Euro
+res=0.042*Mex;
+break;
+
+case 3://Libra
+res=0.036*Mex;
+break;
+
+case 4://Yen
+res=5.41*Mex;
+break;
+
+case 5://Franco
+res=0.045*Mex;
+break;
+
+case 6://Yuan
+res=0.045*Mex;
+break;
+
+default:
+printf("Opcion no disponible\n");
+}
+printf("La conversion de %d pesos mex, el la moneda seleccionada es: %1.3f",Mex,res);
+return 0;
+}
