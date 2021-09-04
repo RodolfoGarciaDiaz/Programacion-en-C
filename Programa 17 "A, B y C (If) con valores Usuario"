@@ -1,0 +1,90 @@
+//01/09/2021/
+//Rodolfo García Díaz
+//Programación en C
+//Programa 17
+#include <stdio.h>
+int main (void)
+{
+printf ("Programa de A, B y C (If) con valores Usuario 2\n");
+int A,B,C;
+int d;
+printf("Ingresael valor de A:");
+scanf("%d",&A);
+printf("Ingresael valor de B:");
+scanf("%d",&B);
+printf("Ingresael valor de C:");
+scanf("%d",&C);
+printf("indica la condicion que quiere verificar\n 1)A>3 2)A>C 3)B!=C 4)A==3 5)A*B==15 6)C/B<A 7)C/B<A 8)A+B+C==5\n 9)(A+B==8)&&(A-B==2) 10)(A+B==8)||(A-B==6) 11)(A>3)&&(B>3)&&(C>3)\n");
+scanf("%d",&d);
+
+
+switch(d){
+case 1:
+if (A>3) //A)
+    printf("A es mayor que 3 \n");
+else printf("A NO es mayor que 3\n");
+break;
+case 2:
+ if (A>C) //B)
+    printf("A es mayor que C \n");
+else printf("A NO es mayor que C\n");
+break;
+
+case 3:
+if (B!=C) //C)
+    printf("B NO es igual que C \n");
+else printf("B es igual que C\n ");
+break;
+
+case 4:
+if (A==3) //D)
+    printf("A es igual que 3\n");
+else printf("A NO es igual que 3\n");
+break;
+
+case 5:
+if (A*B==15) //E)
+    printf("A multiplicado por B es igual a 15 \n");
+else printf("A multiplicado por B NO es igual a 15\n");
+break;
+
+case 6:
+if (C / B < A ) //F)
+    printf("C dividido entre B es menor que A \n");
+else printf("C dividido entre B NO es menor que A \n");
+break;
+
+case 7:
+if (C / B == -10) //G)
+    printf("C dividido entre B es igual a -10\n");
+else printf("C dividido entre B NO es igual a -10\n");
+break;
+
+case 8:
+if (A + B + C == 5) //H)
+    printf("La suma de A+B+C es igual a 5 \n");
+else printf("La suma de A+B+C NO es igual a 5\n");
+break;
+
+case 9:
+if (A+B==8 && A-B==2) //I)
+    printf("La suma de A y B es igual a 8 y la diferencia de A y B es igual a 2\n");
+else printf ("La suma de A y B No es igual a 8 o la diferencia de A y B No es igual a 2\n");
+break;
+
+case 10:
+if ((A+B==8)||(A-B==6)) //J)
+    printf("La suma de A y B es igual a 8 o la diferencia de A y B es igual a 6\n");
+else printf ("La suma de A y B No es igual a 8 y la diferencia de A y B No es igual a 6\n");
+break;
+
+case 11:
+if ((A>3) && (B>3) && (C>3)) //K)
+    printf("A,B y C son mayores a 3\n");
+else printf("A, B o C NO es mayor a 3\n");
+break;
+default:
+            printf("opcion invalida");
+}
+return 0;
+}
