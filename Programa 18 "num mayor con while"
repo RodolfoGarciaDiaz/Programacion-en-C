@@ -1,0 +1,23 @@
+//01/09/2021/
+//Rodolfo García Díaz
+//Programación en C
+//Programa 18
+#include <stdio.h>
+int main(void){
+ 	int A,B,C,j=0,i;
+ 	int nmayor=0, total=0;
+ 	printf("Programa num mayor con while\n");
+ 	printf("indica el valor de A:");
+ 	scanf("%d", &A);
+ 	printf("indica el valor de B:");
+ 	scanf("%d", &B);
+	 if (A>B) nmayor=A; else nmayor=B;
+	 printf("El valor mas grande es:%d\n",nmayor);
+	 for (i=1; i<=nmayor; i++)
+	 {
+	 	total=total+i;
+	 	printf("%d+",i);
+	 }
+	 printf("\nsumatoria total= %d\n",total);
+	 return 0;
+}
