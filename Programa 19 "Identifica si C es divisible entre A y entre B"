@@ -1,1 +1,42 @@
+//01/09/2021/
+//Rodolfo García Díaz
+//Programación en C
+//Programa 19
+#include <stdio.h>
+int divisibilidadada( int a, int c )
+{
+	if(c%a==0) return 1;
+	else
+	return 0;
+}
+int divisibilidadadb(int b, int c)
+{
+	if (c%b==0) return 0;
+	else
+	return 0;
+}
+ int main (void) {
+ 	int a=0,b=0,c=0;
+    int Res1,Res2;
+ 	printf("Programa identifica si C es divisible entre A y entre B\n");
+ 	printf("indica el valor de A:");
+ 	scanf("%d",&a);
+ 	printf("indica el valor de B:");
+ 	scanf("%d",&b);
+ 	printf("indica el valor de C:");
+ 	scanf("%d",&c);
+
+ 	Res1=c/a;
+ 	Res2=c/b;
+
+if (divisibilidadada(a,c))
+ 	printf ("%d es divisible entre %d\n El resultado es:%d\n",c,a,Res1);
+else
+ 	printf ("%d no es divisible entre %d\n",c,a);
+if (divisibilidadada(b,c))
+ 	printf ("%d es divisible entre %d\n El resultado es:%d\n",c,b,Res2);
+else
+ 	printf ("%d no es divisible entre %d\n",c,b);
+ 	return 0;
+ }
 
