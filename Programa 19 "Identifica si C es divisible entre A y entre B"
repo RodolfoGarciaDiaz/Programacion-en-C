@@ -9,7 +9,7 @@ int divisibilidadada( int a, int c )
 	else
 	return 0;
 }
-int divisibilidadadb(int b, int c)
+int divisibilidadada(int b, int c)
 {
 	if (c%b==0) return 0;
 	else
