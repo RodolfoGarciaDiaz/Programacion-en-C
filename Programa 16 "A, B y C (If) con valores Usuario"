@@ -8,11 +8,11 @@ int main (void)
 printf ("Programa de A, B y C (If) con valores Usuario\n");
 int A,B,C;
 
-printf("Ingresael valor de A:");
+printf("Ingresa el valor de A:");
 scanf("%d",&A);
-printf("Ingresael valor de B:");
+printf("Ingresa el valor de B:");
 scanf("%d",&B);
-printf("Ingresael valor de C:");
+printf("Ingresa el valor de C:");
 scanf("%d",&C);
 
 if (A>3) //A)
