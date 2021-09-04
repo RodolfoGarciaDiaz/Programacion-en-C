@@ -1,0 +1,61 @@
+//01/09/2021/
+//Rodolfo García Díaz
+//Programación en C
+//Programa 15
+#include <stdio.h>
+int main (void)
+{
+printf ("Programa de A, B y C (If) con valores estaticos\n");
+int A=5,B=3,C=(-12);
+
+printf("El valor de A es: %d\n",A);
+printf("El valor de B es: %d\n",B);
+printf("El valor de C es: %d\n",C);
+
+if (A>3) //A)
+    printf("A es mayor que 3 \n");
+else printf("A NO es mayor que 3\n");
+
+ if (A>C) //B)
+    printf("A es mayor que C \n");
+else printf("A NO es mayor que C\n");
+
+if (B!=C) //C)
+    printf("B NO es igual que C \n");
+else printf("B es igual que C\n ");
+
+if (A==3) //D)
+    printf("A es igual que 3\n");
+else printf("A NO es igual que 3\n");
+
+if (A*B==15) //E)
+    printf("A multiplicado por B es igual a 15 \n");
+else printf("A multiplicado por B NO es igual a 15\n");
+
+if (C / B < A ) //F)
+    printf("C dividido entre B es menor que A \n");
+else printf("C dividido entre B NO es menor que A \n");
+
+if (C / B == -10) //G)
+    printf("C dividido entre B es igual a -10\n");
+else printf("C dividido entre B NO es igual a -10\n");
+
+if (A + B + C == 5) //H)
+    printf("La suma de A+B+C es igual a 5 \n");
+else printf("La suma de A+B+C NO es igual a 5\n");
+
+if (A+B==8 && A-B==2) //I)
+    printf("La suma de A y B es igual a 8 y la diferencia de A y B es igual a 2\n");
+else printf ("La suma de A y B No es igual a 8 o la diferencia de A y B No es igual a 2\n");
+
+if ((A+B==8)||(A-B==6)) //J)
+    printf("La suma de A y B es igual a 8 o la diferencia de A y B es igual a 6\n");
+else printf ("La suma de A y B No es igual a 8 y la diferencia de A y B No es igual a 6\n");
+
+if ((A>3) && (B>3) && (C>3)) //K)
+    printf("A,B y C son mayores a 3\n");
+else printf("A, B o C NO es mayor a 3\n");
+
+return 0;
+
+}
