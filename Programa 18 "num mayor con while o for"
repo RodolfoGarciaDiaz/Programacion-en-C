@@ -6,7 +6,7 @@
 int main(void){
  	int A,B,C,j=0,i;
  	int nmayor=0, total=0;
- 	printf("Programa num mayor con while\n");
+ 	printf("Programa num mayor con while o for\n");
  	printf("indica el valor de A:");
  	scanf("%d", &A);
  	printf("indica el valor de B:");
