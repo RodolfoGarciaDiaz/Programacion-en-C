@@ -1,0 +1,15 @@
+//09/09/2021/
+//Rodolfo García Díaz 1° "3"
+//Programación en C Electronica
+//EXAMEN 1er parcial Eje. 1
+#include <stdio.h>
+ int main(void){
+ 	int L;
+ 	int Volumen;
+ 	printf("Programa volumen de un cubo.\n");
+ 	printf("Indica la magnitud de uno de los lados de la base (cm):");
+ 	scanf("%d",&L);
+ 	Volumen=L*L*L;
+ 	printf("El volumen de su cubo es: %d cm3 \n",Volumen);
+ 	return 0;
+ }
