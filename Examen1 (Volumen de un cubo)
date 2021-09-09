@@ -4,12 +4,12 @@
 //EXAMEN 1er parcial Eje. 1
 #include <stdio.h>
  int main(void){
-    int L;
- 	int Volumen;
+  float L;
+ 	float Volumen;
  	printf("Programa volumen de un cubo.\n");
  	printf("Indica la magnitud de uno de los lados de la base (cm)=");
- 	scanf("%d",&L);
+ 	scanf("%f",&L);
  	Volumen=L*L*L;
- 	printf("El volumen de su cubo es: %d cm3 \n",Volumen);
+ 	printf("El volumen de su cubo es: %1.2f cm3 \n",Volumen);
  	return 0;
  }
