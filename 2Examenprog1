@@ -2,7 +2,6 @@
 //Programación en C Electronica UAEH
 //28/10/2021  Examen 2do parcial prog.1
 #include <stdio.h>
-#include <stdio.h>
 #include <stdlib.h>
 #define MAX 10
 int main(int argc, char *argv[])
