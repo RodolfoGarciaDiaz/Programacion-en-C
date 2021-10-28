@@ -1,7 +1,6 @@
 //Programación en C Electronica UAEH
 //28/10/2021  Examen 2do parcial prog.3
 #include <stdio.h>
-#include <stdlib.h>
 #include <conio.h>
 #define MAX 25
 void OrdenarSeleccion (int numeros[ ], int N);
